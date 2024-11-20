@@ -1,0 +1,27 @@
+{
+  "name": "vitest-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "dev": "nodemon --exec ts-node ./srx/index.ts "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "express": "^4.21.1",
+    "prisma": "^5.22.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/supertest": "^6.0.2",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0",
+    "vitest": "^2.1.5",
+    "vitest-mock-extended": "^2.0.2"
+  }
+}
